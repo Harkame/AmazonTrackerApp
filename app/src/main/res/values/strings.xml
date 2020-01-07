@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AmazonTrackerApp</string>
+    <string name="amazontrackerapp_is_running">AmazonTrackerApp is running</string>
+</resources>

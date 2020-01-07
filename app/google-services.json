@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "209334452637",
+    "firebase_url": "https://trackerapp-b642a.firebaseio.com",
+    "project_id": "trackerapp-b642a",
+    "storage_bucket": "trackerapp-b642a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:209334452637:android:5f031a3629d5c0871daf74",
+        "android_client_info": {
+          "package_name": "com.example.amazontrackerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "209334452637-c5mrpqjhdv9arla41dimr634o34kou3d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.amazontrackerapp",
+            "certificate_hash": "bfa5433bad9b15d67869101f3870aa7302985b8d"
+          }
+        },
+        {
+          "client_id": "209334452637-b91hghphkqrp55o9n227fgl67qbpsors.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.amazontrackerapp",
+            "certificate_hash": "cc77edde69cef3ec65d08dab9606bcb710dc6ca1"
+          }
+        },
+        {
+          "client_id": "209334452637-13j0vs2drrft4doi0r5o59t0jsepnn6n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAi3k9xfIcrvra90rELAD8cUf6AMFPwMM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "209334452637-13j0vs2drrft4doi0r5o59t0jsepnn6n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
