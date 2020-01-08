@@ -21,11 +21,10 @@ class MainActivity : AppCompatActivity() {
 
         FirebaseMessaging.getInstance().subscribeToTopic("amazon_tracker")
             .addOnCompleteListener { task ->
-                var msg = "Success maggle"
                 if (!task.isSuccessful) {
-                    msg = "PLS"
+                    val msg = "PLS"
+                    Toast.makeText(baseContext, msg, Toast.LENGTH_SHORT).show()
                 }
-                Toast.makeText(baseContext, msg, Toast.LENGTH_SHORT).show()
             }
 
 
