@@ -17,8 +17,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        AmazonTrackerAppService.startService(this)
-
         FirebaseMessaging.getInstance().subscribeToTopic("amazon_tracker")
             .addOnCompleteListener { task ->
                 if (!task.isSuccessful) {
@@ -37,11 +35,5 @@ class MainActivity : AppCompatActivity() {
                 .apply()
         }
 
-    }
-
-    override fun onDestroy() {
-        AmazonTrackerAppService.stopService(this)
-
-        super.onDestroy()
     }
 }
